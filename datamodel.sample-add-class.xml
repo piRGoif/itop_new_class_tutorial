@@ -173,6 +173,15 @@
         </list>
       </presentation>
      </class>
+    <class id="Model" _delta="must_exist">
+      <fields>
+        <field id="type" xsi:type="AttributeEnum">
+          <values>
+            <value id="Monitor" _delta="define">Monitor</value>
+          </values>
+        </field>
+      </fields>
+    </class>
   </classes>
   <menus>
     <menu id="ConfigManagementOverview" xsi:type="DashboardMenuNode" _delta="must_exist">
